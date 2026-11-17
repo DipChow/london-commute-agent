@@ -5,3 +5,6 @@ __pycache__/
 *.db
 .DS_Store
 *.egg-info/
+config/commuters.local.json
+config/*.tmp
+data/
