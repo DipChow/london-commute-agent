@@ -1,0 +1,9 @@
+{
+  "origin": "SET_ME",
+  "destination": "SET_ME",
+  "usual_departure_times": [],
+  "watched_lines": [],
+  "bus_stops": [],
+  "max_walking_minutes": 15,
+  "max_interchanges": 2
+}
