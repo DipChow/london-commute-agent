@@ -9,7 +9,7 @@ Z=ZoneInfo('Europe/London')
 class Tests(unittest.TestCase):
  def setUp(self):
   self.tmp=tempfile.TemporaryDirectory(); self.db=patch.object(storage,'DB',Path(self.tmp.name)/'test.db'); self.db.start()
-  self.p={'timezone':'Europe/London','origin':{'address':'home','stop_id':'s'},'destination':{'address':'work'},'time_window':{'start':'08:50','end':'09:10'},'travel_days':commute.DAYS[:5],'advance_warning_minutes':30,'rail_line_ids':['bakerloo'],'interchange_search':'Elephant & Castle'}
+  self.p={'id':'tim','timezone':'Europe/London','origin':{'address':'home','stop_id':'s'},'destination':{'address':'work'},'time_window':{'start':'08:50','end':'09:10'},'travel_days':commute.DAYS[:5],'advance_warning_minutes':30,'rail_line_ids':['bakerloo'],'interchange_search':'Elephant & Castle'}
  def tearDown(self): self.db.stop(); self.tmp.cleanup()
  def prepare(self):
   k=commute.profile_key(self.p)
