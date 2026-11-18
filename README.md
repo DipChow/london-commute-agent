@@ -2,6 +2,10 @@
 
 A personal project that uses TfL data to monitor commute disruptions, check journey alternatives and explain what a service change may mean for your route.
 
+## How it works
+
+![Commute agent workflow](docs/commute-agent-workflow.png)
+
 ## First version
 
 - Show live status for selected TfL lines.
