@@ -4,7 +4,7 @@ A personal project that uses TfL data to monitor commute disruptions, check jour
 
 ## How it works
 
-![Commute agent workflow](docs/commute-agent-workflow.png)
+![Commute agent workflow](commute-agent-workflow.png)
 
 ## First version
 
